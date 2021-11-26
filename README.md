@@ -5,10 +5,13 @@
 
 ### 2 - Data
 
-### 3 - EDA
+### 3 - Exploratory Data Analysis
 
-### 4 - 
+### 4 - Data Visualization
 
+### 5 - Modelling 
+
+* 5.1 - Logistic Regression
 
 
 
