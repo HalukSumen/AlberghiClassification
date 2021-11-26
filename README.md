@@ -12,11 +12,14 @@
 ### 5 - Modelling 
 
 * 5.1 - Logistic Regression
+* 5.2 - K Neighbors Classification
+* 5.3 - Decision Tree Classification
+* 5.4 - Random Forest Classification
+* 5.5 - AdaBoost Classification
+* 5.6 - Gradient Boosting Classification
+* 5.7 - XGB Classification
+* 5.8 - ExtraTrees Classification
+* 5.9 - Bagging Classification
 
+### 6 - Result & Future Work
 
-
-
-* GitHub
-  * Create a repository
-  * Deploy to personal pages
- **bold text** 
