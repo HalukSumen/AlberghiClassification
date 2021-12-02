@@ -12,31 +12,31 @@ Dataset contains 6775 rows and 25 columns.
 
 Description and Type of Each Column;
 
-* ID                       int64   - id
-* PROVINCIA               object   - id of state
-* COMUNE                  object   - name of city
-* LOCALITA                object   - name of town
-* CAMERE                   int64   - number or rooms
-* SUITE                    int64   - number of suites
-* LETTI                    int64   - number of beds
-* BAGNI                    int64   - number of bathrooms
-* PRIMA_COLAZIONE          int64   - breakfast included or not
-* IN_ABITATO             float64   - building or not
-* SUL_LAGO               float64   - close to lake or not
-* VICINO_ELIPORTO        float64   - close to heliport or not
-* VICINO_AEREOPORTO      float64   - close to airport or not
-* ZONA_CENTRALE          float64   - in the central or not
-* VICINO_IMP_RISALITA    float64   -
-* ZONA_PERIFERICA        float64   - suburb or not
-* ZONA_STAZIONE_FS       float64   - close to station or not
-* ATTREZZATURE_VARIE      object   - equipment types( elevator, park, restaurants etc.)
-* CARTE_ACCETTATE         object   - accepted credit cards (visa,mastercard etc.)
-* LINGUE_PARLATE          object   - spoken languages by host or hotel
-* SPORT                   object   - 
-* CONGRESSI               object   - 
-* LATITUDINE             float64   - latitude
-* LONGITUDINE            float64   - longitude
-* OUTPUT                  object   - types of places
+__* ID                       int64__   - id
+__* PROVINCIA               object__   - id of state
+__* COMUNE                  object__   - name of city
+__* LOCALITA                object__   - name of town
+__* CAMERE                   int64__   - number or rooms
+__* SUITE                    int64__   - number of suites
+__* LETTI                    int64__   - number of beds
+__* BAGNI                    int64__   - number of bathrooms
+__* PRIMA_COLAZIONE          int64__   - breakfast included or not
+__* IN_ABITATO             float64__   - building or not
+__* SUL_LAGO               float64__   - close to lake or not
+__* VICINO_ELIPORTO        float64__   - close to heliport or not
+__* VICINO_AEREOPORTO      float64__   - close to airport or not
+__* ZONA_CENTRALE          float64__   - in the central or not
+__* VICINO_IMP_RISALITA    float64__   -
+__* ZONA_PERIFERICA        float64__   - suburb or not
+__* ZONA_STAZIONE_FS       float64__   - close to station or not
+__* ATTREZZATURE_VARIE      object__   - equipment types( elevator, park, restaurants etc.)
+__* CARTE_ACCETTATE         object__   - accepted credit cards (visa,mastercard etc.)
+__* LINGUE_PARLATE          object__   - spoken languages by host or hotel
+__* SPORT                   object__   - 
+__* CONGRESSI               object__   - 
+__* LATITUDINE             float64__   - latitude
+__* LONGITUDINE            float64__   - longitude
+__* OUTPUT                  object__   - types of places
 
 
 
