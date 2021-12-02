@@ -4,7 +4,9 @@
 
 ## Exploratory Data Analysis + Data Visualization + Modelling 
 
-### 1 - Introduction
+### 1 - Abstract
+
+In this project I made Exploratory Data Analysis, Data Visualisation and lastly Modelling which I did with 9 different models. In Exploratory Data Analysis I cleaned irrelevant data,NaN values and change data types for easiness. In second part, I would like to show data in plots.Such as, number of places according to their types and according to province. Later these processes I looked Pearson Correlation and Spearman Correlation which they gave very similar result as expected. Before modelling I prepared data training and testing. My testing size is __0.33__. Then I applied for each model, the algorithms I used for these project are Logistic Regression, K Neighbors Classification, Decision Tree Classification, Random Forest Classification, AdaBoost Classification, Gradient Boosting Classification, XGB Classification, ExtraTrees Classification, Bagging Classification. In the end Random Forest Classifier gives the best result but maybe tuning with XGB increase its score.  
 
 ### 2 - Data
 
@@ -39,9 +41,12 @@ Description and Type of Each Column;
 
 ### 3 - Exploratory Data Analysis
 
-Firslty, I checked data types and number of Nan in each columns. Later this process I decided which columns I will delete and which rows should I delete. So I deleted *LOCALITA - SPORT - CONGRESSI - LATITUDINE - LONGITIDUNE* columns and I deleted in NaN rows in *IN_ABITATO -SUL_LAGO - VICINO_ELIPORTO - VICINO_AEREOPORTO - ZONA_CENTRALE - VICINO_IMP_RISALITA - ZONA_PERIFERICA - ZONA_STAZIONE_FS* columns.
+Firslty, I checked data types and number of Nan in each columns. Later this process I decided which columns I will delete and which rows should I delete. So I deleted *LOCALITA - SPORT - CONGRESSI - LATITUDINE - LONGITIDUNE* columns and I deleted in NaN rows in *IN_ABITATO -SUL_LAGO - VICINO_ELIPORTO - VICINO_AEREOPORTO - ZONA_CENTRALE - VICINO_IMP_RISALITA - ZONA_PERIFERICA - ZONA_STAZIONE_FS* columns. But I keep 3 columns which contains very high number of NaN values because data they contains could be helpful for future works. 
 
 ### 4 - Data Visualization
+
+!!!  IMAGES WILL UPLOAD !!!
+
 
 ### 5 - Modelling 
 
@@ -56,3 +61,15 @@ Firslty, I checked data types and number of Nan in each columns. Later this proc
 * 5.9 - Bagging Classification
 
 ### 6 - Result & Future Work
+
+* __Logistic Regression Score:__ 0.6460699681962744
+* __K Neighbors Classifier Score:__ 0.6338028169014085
+* __DecisionTree Classifier Score:__ 0.8391640163562017
+* __Random Forest Classifier Score:__ 0.8727850976828714
+* __AdaBoost Classifier Score:__ 0.5483870967741935
+* __Gradient Boosting Classifier Score:__ 0.8714220808723308
+* __XGB Classifier Score:__ 0.7878237164925034
+* __ExtraTree Classifier Score:__ 0.8632439800090868
+* __Bagging Classifier Score:__ 0.8514311676510677
+
+According the scores,Random Forest Classifier gives best result with __0.872785__. Also Gradient Boosting is gives very close to Random Forest Classifier with __0.871422__, and finally AdaBoost is give the worst performance with __0.548387__.
