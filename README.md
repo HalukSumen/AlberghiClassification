@@ -6,7 +6,7 @@
 
 ### 1 - Abstract
 
-In this project I made Exploratory Data Analysis, Data Visualisation and lastly Modelling which I did with 9 different models. In Exploratory Data Analysis I cleaned irrelevant data,NaN values and change data types for easiness. In second part, I would like to show data in plots.Such as, number of places according to their types and according to province. Later these processes I looked Pearson Correlation and Spearman Correlation which they gave very similar result as expected. Before modelling I prepared data training and testing. My testing size is __0.33__. Then I applied for each model, the algorithms I used for these project are Logistic Regression, K Neighbors Classification, Decision Tree Classification, Random Forest Classification, AdaBoost Classification, Gradient Boosting Classification, XGB Classification, ExtraTrees Classification, Bagging Classification. In the end Random Forest Classifier gives the best result but maybe tuning with XGB increase its score.  
+In this project I made Exploratory Data Analysis, Data Visualisation and lastly Modelling which I did with 9 different models. In Exploratory Data Analysis I cleaned irrelevant data,NaN values and change data types for easiness. In second part, I would like to show data in plots.Such as, number of places according to their types and according to province. Later these processes I looked Pearson Correlation and Spearman Correlation which they gave very similar result as expected. Before modelling I prepared data training and testing. My testing size is __0.33__. Then I applied for each model, the algorithms I used for these project are Logistic Regression, K Neighbors Classification, Decision Tree Classification, Random Forest Classification, AdaBoost Classification, Gradient Boosting Classification, XGB Classification, ExtraTrees Classification, Bagging Classification. Finally, Random Forest Classifier gives the best result but tuning with algorithms or cleaning the data more(I believe it will decrease the size of dataset alot) can be effective.
 
 ### 2 - Data
 
@@ -51,40 +51,22 @@ Firslty, I checked data types and number of Nan in each columns. Later this proc
 ### 5 - Modelling 
 
 * __5.1 - Logistic Regression__
-
 is used to predict the categorical dependent variable using a given set of independent variables. 
-
 * __5.2 - K Neighbors Classification__
-
 non-parametric classification method.
-
 * __5.3 Decision Tree Classification__
-
 breaks the data smaller subsets in form of tree structure
-
 * __5.4 - Random Forest Classification__
-
 consist many decision tree but using bagging and randomness. then look at average/voting and gives the result.
-
 * __5.5 - AdaBoost Classification__
-
 is an meta-estimator, that begins by fitting a classifier on the original dataset and then fits additional copies of the classifier on the same dataset.
-
 * __5.6 - Gradient Boosting Classification__
-
 combine weak learning models to create strong model 
-
 * __5.7 - XGB Classification__
-
 implementation of gradient boosted decision trees but more effective in performance.
-
 * __5.8 - ExtraTrees Classification__
-
 implements a meta-estimator which fits number of random decision trees on various subsets of dataset and it uses average/voting to improve prediction.
-
-
 * __5.9 - Bagging Classification__
-
 an ensemble meta-estimator that fits base classifiers each on random subsets of the original dataset and then aggregate their individual predictions  to form a final prediction.
 
 ### 6 - Result & Future Work
@@ -99,4 +81,4 @@ an ensemble meta-estimator that fits base classifiers each on random subsets of 
 * __ExtraTree Classifier Score:__ 0.8632439800090868
 * __Bagging Classifier Score:__ 0.8514311676510677
 
-According the scores,Random Forest Classifier gives best result with __0.872785__. Also Gradient Boosting is gives very close to Random Forest Classifier with __0.871422__, and finally AdaBoost is give the worst performance with __0.548387__.
+According the scores,Random Forest Classifier gives best result with __0.872785__. Also Gradient Boosting is gives very close to Random Forest Classifier with __0.871422__, and finally AdaBoost is give the worst performance with __0.548387__. In the end Random Forest Classifier gives the best result but maybe tuning with XGB increase its score.  
