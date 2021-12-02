@@ -50,40 +50,40 @@ Firslty, I checked data types and number of Nan in each columns. Later this proc
 
 ### 5 - Modelling 
 
-* __5.1 - Logistic Regression
+* __5.1 - Logistic Regression__
 
 is used to predict the categorical dependent variable using a given set of independent variables. 
 
-* __5.2 - K Neighbors Classification
+* __5.2 - K Neighbors Classification__
 
 non-parametric classification method.
 
-* 5.3 - Decision Tree Classification
+* __5.3 Decision Tree Classification__
 
 breaks the data smaller subsets in form of tree structure
 
-* __5.4 - Random Forest Classification
+* __5.4 - Random Forest Classification__
 
 consist many decision tree but using bagging and randomness. then look at average/voting and gives the result.
 
-* __5.5 - AdaBoost Classification
+* __5.5 - AdaBoost Classification__
 
 is an meta-estimator, that begins by fitting a classifier on the original dataset and then fits additional copies of the classifier on the same dataset.
 
-* __5.6 - Gradient Boosting Classification
+* __5.6 - Gradient Boosting Classification__
 
 combine weak learning models to create strong model 
 
-* __5.7 - XGB Classification
+* __5.7 - XGB Classification__
 
 implementation of gradient boosted decision trees but more effective in performance.
 
-* __5.8 - ExtraTrees Classification
+* __5.8 - ExtraTrees Classification__
 
 implements a meta-estimator which fits number of random decision trees on various subsets of dataset and it uses average/voting to improve prediction.
 
 
-* __5.9 - Bagging Classification
+* __5.9 - Bagging Classification__
 
 an ensemble meta-estimator that fits base classifiers each on random subsets of the original dataset and then aggregate their individual predictions  to form a final prediction.
 
