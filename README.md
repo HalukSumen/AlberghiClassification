@@ -12,8 +12,8 @@ Dataset contains 6775 rows and 25 columns.
 
 Description and Type of Each Column;
 
-__ * ID                       int64__   - id
-__ * PROVINCIA               object__   - id of state
+* __  ID                       int64__   - id
+* __PROVINCIA               object__   - id of state
 __ * COMUNE                  object__   - name of city
 __ * LOCALITA                object__   - name of town
 __ * CAMERE                   int64__   - number or rooms
