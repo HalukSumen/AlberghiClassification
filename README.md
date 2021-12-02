@@ -45,7 +45,7 @@ Firslty, I checked data types and number of Nan in each columns. Later this proc
 
 ### 4 - Data Visualization
 
-!!!  IMAGES WILL UPLOAD !!!
+!!!  IMAGES WILL UPLOAD SOON!!!
 
 
 ### 5 - Modelling 
