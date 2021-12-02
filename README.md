@@ -31,15 +31,15 @@ Description and Type of Each Column;
 * __ATTREZZATURE_VARIE      *object*__   - equipment types( elevator, park, restaurants etc.)
 * __CARTE_ACCETTATE         *object*__   - accepted credit cards (visa,mastercard etc.)
 * __LINGUE_PARLATE          *object*__   - spoken languages by host or hotel
-* __SPORT                   *object*__   - 
-* __CONGRESSI               *object*__   - 
-* __LATITUDINE             float64__   - latitude
-* __LONGITUDINE            float64__   - longitude
-* __OUTPUT                  object__   - types of places
-
-
+* __SPORT                   *object*__   - sport options (football, table tennis etc.)
+* __CONGRESSI               *object*__   - congress room(s)
+* __LATITUDINE             *float64*__   - latitude
+* __LONGITUDINE            *float64*__   - longitude
+* __OUTPUT                  *object*__   - types of places
 
 ### 3 - Exploratory Data Analysis
+
+Firslty, I checked data types and number of Nan in each columns. Later this process I decided which columns I will delete and which rows should I delete. So I deleted *LOCALITA - SPORT - CONGRESSI - LATITUDINE - LONGITIDUNE* columns and I deleted in NaN rows in *IN_ABITATO -SUL_LAGO - VICINO_ELIPORTO - VICINO_AEREOPORTO - ZONA_CENTRALE - VICINO_IMP_RISALITA - ZONA_PERIFERICA - ZONA_STAZIONE_FS* columns.
 
 ### 4 - Data Visualization
 
