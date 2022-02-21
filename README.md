@@ -45,29 +45,112 @@ Firslty, I checked data types and number of Nan in each columns. Later this proc
 
 ### 4 - Data Visualization
 
-!!!  IMAGES WILL UPLOAD SOON!!!
+<p align="center">
+  <img width="500" height="350" src="https://github.com/HalukSumen/AlberghiClassification/blob/main/images/numberofplaces.png">
+</p>
+<p align="center">
+   <b>Number of Places According to Their Types</b>
+</p>
+
+<p align="center">
+  <img width="500" height="350" src="https://github.com/HalukSumen/AlberghiClassification/blob/main/images/2classificationreport.png">
+</p>
+<p align="center">
+   <b>K Neighbors Classification</b>
+</p>
 
 
 ### 5 - Modelling 
 
 * __5.1 - Logistic Regression__
+
 is used to predict the categorical dependent variable using a given set of independent variables. 
+<p align="center">
+  <img width="500" height="350" src="https://github.com/HalukSumen/AlberghiClassification/blob/main/images/1classificationreport.png">
+</p>
+<p align="center">
+   <b>Logistic Regression</b>
+</p>
+
 * __5.2 - K Neighbors Classification__
+
 non-parametric classification method.
+<p align="center">
+  <img width="500" height="350" src="https://github.com/HalukSumen/AlberghiClassification/blob/main/images/2classificationreport.png">
+</p>
+<p align="center">
+   <b>K Neighbors Classification</b>
+</p>
+
 * __5.3 Decision Tree Classification__
+
 breaks the data smaller subsets in form of tree structure
+<p align="center">
+  <img width="500" height="350" src="https://github.com/HalukSumen/AlberghiClassification/blob/main/images/3classificationreport.png">
+</p>
+<p align="center">
+   <b>Decision Tree Classification</b>
+</p>
+
 * __5.4 - Random Forest Classification__
+
 consist many decision tree but using bagging and randomness. then look at average/voting and gives the result.
+<p align="center">
+  <img width="500" height="350" src="https://github.com/HalukSumen/AlberghiClassification/blob/main/images/4classificationreport.png">
+</p>
+<p align="center">
+   <b>Random Forest Classification</b>
+</p>
+
 * __5.5 - AdaBoost Classification__
+
 is an meta-estimator, that begins by fitting a classifier on the original dataset and then fits additional copies of the classifier on the same dataset.
+<p align="center">
+  <img width="500" height="350" src="https://github.com/HalukSumen/AlberghiClassification/blob/main/images/5classificationreport.png">
+</p>
+<p align="center">
+   <b>AdaBoost Classification</b>
+</p>
+
 * __5.6 - Gradient Boosting Classification__
-combine weak learning models to create strong model 
+
+combine weak learning models to create strong model.
+<p align="center">
+  <img width="500" height="350" src="https://github.com/HalukSumen/AlberghiClassification/blob/main/images/6classificationreport.png">
+</p>
+<p align="center">
+   <b>Gradient Boosting Classification</b>
+</p>
+
 * __5.7 - XGB Classification__
+
 implementation of gradient boosted decision trees but more effective in performance.
+<p align="center">
+  <img width="500" height="350" src="https://github.com/HalukSumen/AlberghiClassification/blob/main/images/7classificationreport.png">
+</p>
+<p align="center">
+   <b>XGB Classification</b>
+</p>
+
 * __5.8 - ExtraTrees Classification__
+
 implements a meta-estimator which fits number of random decision trees on various subsets of dataset and it uses average/voting to improve prediction.
+<p align="center">
+  <img width="500" height="350" src="https://github.com/HalukSumen/AlberghiClassification/blob/main/images/8classificationreport.png">
+</p>
+<p align="center">
+   <b>ExtraTrees Classification</b>
+</p>
+
 * __5.9 - Bagging Classification__
+
 an ensemble meta-estimator that fits base classifiers each on random subsets of the original dataset and then aggregate their individual predictions  to form a final prediction.
+<p align="center">
+  <img width="500" height="350" src="https://github.com/HalukSumen/AlberghiClassification/blob/main/images/9classificationreport.png">
+</p>
+<p align="center">
+   <b>Bagging Classification</b>
+</p>
 
 ### 6 - Result & Future Work
 
