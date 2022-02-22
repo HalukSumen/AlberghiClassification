@@ -44,14 +44,14 @@ Description and Type of Each Column;
 Firslty, I checked data types and number of Nan in each columns. Later this process I decided which columns I will delete and which rows should I delete. So I deleted *LOCALITA - SPORT - CONGRESSI - LATITUDINE - LONGITIDUNE* columns and I deleted in NaN rows in *IN_ABITATO -SUL_LAGO - VICINO_ELIPORTO - VICINO_AEREOPORTO - ZONA_CENTRALE - VICINO_IMP_RISALITA - ZONA_PERIFERICA - ZONA_STAZIONE_FS* columns. But I keep 3 columns which contains very high number of NaN values because data they contains could be helpful for future works. 
 
 <p align="center">
-  <img width="500" height="500" src="https://github.com/HalukSumen/AlberghiClassification/blob/main/images/pearsoncorrelation.png">
+  <img width="600" height="600" src="https://github.com/HalukSumen/AlberghiClassification/blob/main/images/pearsoncorrelation.png">
 </p>
 <p align="center">
    <b>Pearson Correlation</b>
 </p>
 
 <p align="center">
-  <img width="500" height="500" src="https://github.com/HalukSumen/AlberghiClassification/blob/main/images/spearmancorrelation.png">
+  <img width="600" height="600" src="https://github.com/HalukSumen/AlberghiClassification/blob/main/images/spearmancorrelation.png">
 </p>
 <p align="center">
    <b>Spearman Correlation</b>
@@ -80,6 +80,14 @@ Firslty, I checked data types and number of Nan in each columns. Later this proc
 <p align="center">
    <b>Number of Room Comparing to Bed</b>
 </p>
+
+<p align="center">
+  <img width="700" height="430" src="https://github.com/HalukSumen/AlberghiClassification/blob/main/images/importanceofcolumns.png">
+</p>
+<p align="center">
+   <b>Importances of Columns</b>
+</p>
+
 
 ### 5 - Modelling 
 
