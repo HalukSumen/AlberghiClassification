@@ -46,19 +46,25 @@ Firslty, I checked data types and number of Nan in each columns. Later this proc
 ### 4 - Data Visualization
 
 <p align="center">
-  <img width="500" height="350" src="https://github.com/HalukSumen/AlberghiClassification/blob/main/images/numberofplaces.png">
+  <img width="700" height="430" src="https://github.com/HalukSumen/AlberghiClassification/blob/main/images/numberofplaces.png">
 </p>
 <p align="center">
    <b>Number of Places According to Their Types</b>
 </p>
 
 <p align="center">
-  <img width="500" height="350" src="https://github.com/HalukSumen/AlberghiClassification/blob/main/images/2classificationreport.png">
+  <img width="700" height="430" src="https://github.com/HalukSumen/AlberghiClassification/blob/main/images/numberofhotelsinprovince.png">
 </p>
 <p align="center">
-   <b>K Neighbors Classification</b>
+   <b>Number of Hotels According to Province</b>
 </p>
 
+<p align="center">
+  <img width="700" height="430" src="https://github.com/HalukSumen/AlberghiClassification/blob/main/images/numberofroomscomparingwbed.png">
+</p>
+<p align="center">
+   <b>Number of Room Comparing to Bed</b>
+</p>
 
 ### 5 - Modelling 
 
